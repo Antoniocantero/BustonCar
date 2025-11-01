@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUSTONCAR - Venda e Aluguel de Veículos</title>
+</head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Nome da empresa</div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#servicos">SERVIÇOS</a></li>
+          <li><a href="#trabalhos">TRABALHOS</a></li>
+          <li><a href="#equipe">EQUIPE</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+          <li><a href="#acesso">ACESSO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="carousel" id="home">
+      <div class="carousel-inner">
+        <div
+          class="carousel-item"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+              ),
+              url('');
+          "
+        >
+          <div class="carousel-content">
+            <h1>Imagem do banner</h1>
+            <p>Descrição</p>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+              ),
+              url('');
+          "
+        >
+          <div class="carousel-content">
+            <h1>Imagem do banner</h1>
+            <p>Descrição</p>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+              ),
+              url('');
+          "
+        >
+          <div class="carousel-content">
+            <h1>Imagem do banner</h1>
+            <p>Descrição</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+        &#10094;
+      </button>
+      <button class="carousel-btn next" onclick="moveCarousel(1)">
+        &#10095;
+      </button>
+      <div class="carousel-dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+
+    <section id="sobre">
+      <h2 class="section-title">SOBRE NOSSO TRABALHO</h2>
+      <div class="about-content">
+        <div class="about-image">Imagem: Equipe da empresa</div>
+        <div class="about-text">
+          <p>
+            A <strong>Sua Empresa</strong> é especializada na venda e locação de
+            veículos, oferecendo uma ampla variedade de modelos e marcas para
+            atender diferentes perfis e necessidades — desde carros econômicos
+            até modelos de luxo.
+          </p>
+          <p>
+            Além da frota disponível, trabalhamos também sob encomenda, em
+            parceria com fornecedores confiáveis, para encontrar o veículo exato
+            que o cliente deseja. Basta informar o modelo e as especificações, e
+            nossa equipe cuida de todo o processo.
+          </p>
+          <p>
+            Todos os veículos passam por uma verificação detalhada junto à loja
+            fornecedora e por uma revisão interna completa na
+            <strong>Sua Empresa</strong>, garantindo qualidade, segurança e
+            procedência de acordo com as preferências de cada cliente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="venda-section">
+      <h2 class="section-title">VENDA DE CARROS</h2>
+      <div class="venda-content">
+        <div class="venda-text">
+          <p>
+            Na <strong>Sua Empresa</strong>, você encontra o carro ideal para o
+            seu dia a dia. Trabalhamos com diversas marcas e modelos, sempre
+            prezando pela qualidade, procedência e satisfação do cliente.
+          </p>
+          <p>
+            Todos os nossos veículos passam por uma revisão completa antes da
+            entrega, garantindo que você leve um carro em perfeitas condições e
+            com garantia. Além disso, oferecemos um atendimento personalizado,
+            com profissionais prontos para ajudar você a fazer o melhor negócio.
+          </p>
+        </div>
+        <div class="venda-image">Imagem: Venda de veículos</div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <h2 class="section-title">NOSSOS SERVIÇOS</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image">Venda</div>
+          <div class="service-content">
+            <h3>Venda de Veículos</h3>
+            <p>
+              Amplo catálogo de veículos novos e seminovos com as melhores
+              condições.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">Test Drive</div>
+          <div class="service-content">
+            <h3>Test Drive</h3>
+            <p>Experimente o veículo antes de comprar com total segurança.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">Consultoria</div>
+          <div class="service-content">
+            <h3>Consultoria</h3>
+            <p>
+              Ajudamos você a escolher o veículo perfeito para suas
+              necessidades.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">Aluguel</div>
+          <div class="service-content">
+            <h3>Aluguel de Veículos</h3>
+            <p>Opções flexíveis de aluguel para qualquer ocasião.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">Revisão</div>
+          <div class="service-content">
+            <h3>Revisão Completa</h3>
+            <p>Todos os veículos passam por revisão técnica detalhada.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">Garantia</div>
+          <div class="service-content">
+            <h3>Garantia</h3>
+            <p>Garantia em todos os veículos comercializados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feedbacks">
+      <h2 class="section-title">FEEDBACKS DE CLIENTES</h2>
+      <div class="feedback-grid">
+        <div class="feedback-card" onclick="openFeedback('feedback1')">
+          <img src="8d7e5995-f5d8-4a25-b248-df7c72b753e8.png" alt="Cliente 1" />
+          <p><strong>Vanessa S.</strong> – Rio de Janeiro (RJ)</p>
+        </div>
+
+        <div class="feedback-card" onclick="openFeedback('feedback2')">
+          <img src="88eaa684-741e-4fec-842c-436cdfdeead1.png" alt="Cliente 2" />
+          <p><strong>Ricardo M.</strong> – São Paulo (SP)</p>
+        </div>
+
+        <div class="feedback-card" onclick="openFeedback('feedback3')">
+          <img src="9679bde8-8812-47f8-803c-08fa9ea70d2b.png" alt="Cliente 3" />
+          <p><strong>Fernanda A.</strong> – Curitiba (PR)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL FEEDBACK (unificado) -->
+    <div id="feedbackModal" class="modal" aria-hidden="true" role="dialog" aria-label="Feedback do cliente">
+      <div class="modal-content">
+        <button class="close" onclick="closeFeedback()" aria-label="Fechar">&times;</button>
+        <img id="modalImg" src="" alt="Foto do Cliente" />
+        <div id="modalText"></div>
+      </div>
+    </div>
+
+    <section id="equipe">
+      <h2 class="section-title">EQUIPE</h2>
+      <p style="text-align: center; color: #666; margin-bottom: 2rem">
+        Nossa equipe de profissionais
+      </p>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-photo">AC</div>
+          <div class="team-name">ANTONIO CANTERO</div>
+          <div class="team-role">CEO</div>
+        </div>
+        <div class="team-member">
+          <div class="team-photo">JR</div>
+          <div class="team-name">JULIANA RODRIGUES</div>
+          <div class="team-role">CHEFE</div>
+        </div>
+        <div class="team-member">
+          <div class="team-photo">JC</div>
+          <div class="team-name">JULIO CAMPOS</div>
+          <div class="team-role">GERENTE</div>
+        </div>
+        <div class="team-member">
+          <div class="team-photo">LS</div>
+          <div class="team-name">LUCAS SILVA</div>
+          <div class="team-role">VENDEDOR SENIOR</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <h2 class="section-title">CONTATE-NOS</h2>
+      <p style="text-align: center; color: #666">
+        Preencha o formulário abaixo que entraremos em contato
+      </p>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Seu Nome" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Seu Email" required />
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Seu Telefone ou Whatsapp" required />
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Sua dúvida" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">ENVIAR</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <h3>Endereço</h3>
+          <p>
+            Rua das Flores, 123<br />Centro - Cidade/Estado<br />CEP 12345-678
+          </p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <h3>Telefone / Whatsapp</h3>
+          <p>(11) 98765-4321</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <h3>Email</h3>
+          <p>suaEmpresa@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <h3 class="footer-heading">Nossas Redes Sociais</h3>
+          <div class="social-links">
+            <a href="#" class="social-btn social-facebook" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                <title>Facebook</title>
+                <rect x="2" y="2" width="20" height="20" rx="3" ry="3" fill="none" />
+                <text x="50%" y="55%" text-anchor="middle" font-family="Segoe UI, Tahoma, Arial" font-size="13" font-weight="700" fill="#ffffff">f</text>
+              </svg>
+            </a>
+            <a href="#" class="social-btn social-instagram" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                <title>Instagram</title>
+                <rect x="3" y="3" width="18" height="18" rx="4" ry="4" fill="none" />
+                <circle cx="12" cy="12" r="3.2" fill="none" stroke="#fff" stroke-width="1.2" />
+                <circle cx="17.2" cy="6.8" r="0.6" fill="#fff" />
+              </svg>
+            </a>
+            <a href="#" class="social-btn social-linkedin" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                <title>LinkedIn</title>
+                <text x="50%" y="55%" text-anchor="middle" font-family="Segoe UI, Tahoma, Arial" font-size="11" font-weight="700" fill="#ffffff">in</text>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <p class="footer-note">&copy; 2025 Sua empresa. Todos os direitos reservados. Alguns de nossos serviços podem exigir cadastro e qualificação.</p>
+      </div>
+    </footer>
